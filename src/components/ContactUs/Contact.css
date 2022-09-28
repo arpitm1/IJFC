@@ -1,14 +1,41 @@
-.getintouch-banner{
-    position: absolute;
-    width: 1728px;
-    height: 924px;
-    left: 0px;
-    top: 134px;
+.contact-leaf{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+
+
 }
-.getintouch-leaf img{
-    position: centre;
-    width: 1728px;
-    height: 924px;
-    left: 0px;
-    top: 134px;
+
+.contactus-form{
+    margin:auto;
+    width:80%;
+}
+
+
+
+.wrapper {
+    display: grid;
+    margin:auto;
+    width:80%;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    background-color: antiquewhite;
+    box-shadow: 5px 5px gray;
+  }
+
+  .row{
+    text-align: center;
+    margin: 10px;
+    padding:20px;
+    border: 1px solid black;
+
+  }
+
+  @media screen and (max-width: 800px)
+  {
+    
+.wrapper {
+    grid-template-columns: 100%;
+  
+  }
 }
