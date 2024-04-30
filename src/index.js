@@ -3,9 +3,9 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import AboutUs from "./components/AboutUs/AboutUs";
-import Event from "./components/Event/Event";
+import Event from "./components/Event/event";
 
-import ReportWebVitals from "./reportWebVitals";
+import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Gallery from "./components/Gallery/Gallery";
 import ContactUs from "./components/ContactUs/ContactUs";
@@ -27,4 +27,4 @@ root.render(
   // </React.StrictMode>
 );
 
-ReportWebVitals();
+reportWebVitals();
