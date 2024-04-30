@@ -1,13 +1,13 @@
 import * as React from 'react';
-import {Stack, Box, Paper, Grid, Typography, Button, Link, Container, TextField} from "@mui/material"
-import './footer.css';
-import facebook from '../../img/facebook.png';
-import twitter from '../../img/twitter.png';
+import {Box, Grid, Typography, Button, Container, TextField} from "@mui/material"
+import './Footer.css';
+import Facebook from '../../img/facebook.png';
+import Twitter from '../../img/twitter.png';
 
 function Footer() {
     return (
       <div>
-        <footer>
+        <Footer>
         <Container fixed>
           <Grid container spacing={2} className="">
             <Grid item xs={12} md={6}>
@@ -25,8 +25,8 @@ function Footer() {
             <div className='footer-inner'>
                 <Typography variant="h3">FOLLOW US</Typography>
                 <box className='s-social'>
-                    <img src={facebook} alt="facebook"/>
-                    <img src={twitter} alt="twitter"/>
+                    <img src={Facebook} alt="facebook"/>
+                    <img src={Twitter} alt="twitter"/>
                 </box>
             </div>
             </Grid>
@@ -45,7 +45,7 @@ function Footer() {
             </Grid>
           </Grid>
         </Container>
-        </footer>
+        </Footer>
       </div>
     );
 }

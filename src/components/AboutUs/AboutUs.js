@@ -1,11 +1,11 @@
-import Header from "../Header/header";
-import Footer from "../Footer/footer";
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
 import React from "react";
-import image23 from "../../img/image23.png";
-import lic from "../../img/lic.png";
-import bob from "../../img/bob.png";
-import tnid from "../../img/tnid.png";
-import welfare from "../../img/welfare.png";
+import Image23 from "../../img/image23.png";
+import Lic from "../../img/lic.png";
+import Bob from "../../img/bob.png";
+import Tnid from "../../img/tnid.png";
+import Welfare from "../../img/welfare.png";
 // import cultural from "../../img/cultural.png";
 // import cultural_overlay from "../../img/cultural_overlay.png";
 
@@ -21,7 +21,7 @@ function AboutUs() {
       <Header />
       {/* Banner */}
       <div className="banner">
-        <img src={image23} alt="banner" />
+        <img src={Image23} alt="banner" />
         <p className="banner-main">
           A common voice for Indians and Japanese which help them articulate
           their issues and concerns and facilitate their integration and
@@ -57,16 +57,16 @@ function AboutUs() {
         <Typography variant="h1">Members and Stakeholders</Typography>
         <div className="row">
           <div className="column">
-            <img src={lic} alt="Snow" />
+            <img src={Lic} alt="Snow" />
           </div>
           <div className="column">
-            <img src={bob} alt="Forest" />
+            <img src={Bob} alt="Forest" />
           </div>
           <div className="column">
-            <img src={tnid} alt="Mountains" />
+            <img src={Tnid} alt="Mountains" />
           </div>
           <div className="column">
-            <img src={welfare} alt="Mountains" />
+            <img src={Welfare} alt="Mountains" />
           </div>
         </div>
 </div>

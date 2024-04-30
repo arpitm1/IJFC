@@ -1,8 +1,8 @@
 import React from "react";
 import { Stack, Box, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
-import "./header.css";
-import logo from "../../img/logo.png";
+import "./Header.css";
+import Logo from "../../img/logo.png";
 import { slide as Menu } from "react-burger-menu";
 
 function Header() {
@@ -42,7 +42,7 @@ function Header() {
       {/* Normal Navbar */}
       <Box className="do-header">
         <Typography variant="h6" sx={{ flexGrow: 1 }}>
-          <img src={logo} alt="logo" />
+          <img src={Logo} alt="logo" />
           Friendship Center
         </Typography>
         <Stack className="do-menu" direction="row" spacing={2}>

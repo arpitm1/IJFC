@@ -1,12 +1,12 @@
-import Header from "../Header/header";
-import Footer from "../Footer/footer";
-import contact_banner from "../../img/contact-banner.png";
-import leaf from "../../img/leaf.png";
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
+import Contact_banner from "../../img/contact-banner.png";
+import Leaf from "../../img/leaf.png";
 import React from "react";
 import "./ContactUs.css";
-import image35 from "../../img/image 35.png";
-import image36 from "../../img/image 36.png";
-import image37 from "../../img/image 37.png";
+import Image35 from "../../img/image 35.png";
+import Image36 from "../../img/image 36.png";
+import Image37 from "../../img/image 37.png";
 
 import { Typography, Box, Button, TextField } from "@mui/material";
 
@@ -16,18 +16,18 @@ function Gallery() {
       <Header />
       {/* Top Banner */}
       <div className="banner">
-        <img src={contact_banner} alt="banner" />
+        <img src={Contact_banner} alt="banner" />
       </div>
       <div className="about-approach">
         <Typography variant="h1">Get In Touch</Typography>
       </div>
       <div className="">
-        <img src={leaf} alt="leaf" className="contact-leaf"></img>
+        <img src={Leaf} alt="leaf" className="contact-leaf"></img>
       </div>
       {/* Grid boxes */}
       <div class="wrapper">
         <div className="row">
-          <img src={image35}></img>
+          <img src={Image35} alt=""></img>
           <br></br>
           <a
             href="+3219996545"
@@ -44,12 +44,12 @@ function Gallery() {
           </a>
         </div>
         <div className="row">
-          <img src={image36}></img>
+          <img src={Image36} alt="" ></img>
           <br></br>
           ijfc@gmail.com
         </div>
         <div className="row">
-          <img src={image37}></img>
+          <img src={Image37} alt=""></img>
           <br></br>
           ijfc location
         </div>

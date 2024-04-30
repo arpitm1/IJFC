@@ -1,10 +1,10 @@
 import React from "react";
-import Header from "../Header/header";
-import Footer from "../Footer/footer"
-import eventimg from "../../img/event.png";
-import event2 from "../../img/events2.png";
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer"
+import Eventimg from "../../img/event.png";
+import Event2 from "../../img/events2.png";
 
-import "./event.css";
+import "./Event.css";
 
 function Event() {
   return (
@@ -12,7 +12,7 @@ function Event() {
       <Header />
       {/* Event banner */}
       <div className="event-banner">
-        <img src={eventimg} alt="event"></img>
+        <img src={Eventimg} alt="event"></img>
         <p className="banner-main">JOIN US WITH OUR BEST MEMORIES</p>
       </div>
       {/* Past Events */}
@@ -24,7 +24,7 @@ function Event() {
         </p>
       </div>
 
-      <img src={event2} className="event-img2" alt="event"></img>
+      <img src={Event2} className="event-img2" alt="event"></img>
       <div className="past-events-text">
         Japan Film Festival <br></br>
         September 27 - October 6, 2019, Delhi NCR
